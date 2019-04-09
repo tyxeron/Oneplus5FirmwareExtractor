@@ -13,7 +13,7 @@ TEMPDIR=`mktemp -d`
 
 cd "$TEMPDIR"
 unzip "$SOURCE"
-rm boot.img system.* vendor.*
+rm boot.img system.* vendor.* compatibility.zip
 cd META-INF
 rm -f CERT.*  MANIFEST.MF
 cd com/google/android
