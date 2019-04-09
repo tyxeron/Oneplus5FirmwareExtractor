@@ -23,7 +23,7 @@ cd google/android
 cat <<EOF  > updater-script
 ui_print(" ");
 ui_print("****************************************************");
-ui_print("* OnePlus 5 OxygenOS 5.1.7 Stable Firmware + Radio *");
+ui_print("* OnePlus 5 OxygenOS Firmware + Radio *");
 ui_print("****************************************************");
 ui_print(" ");
 ui_print("1. Updating radio image");
