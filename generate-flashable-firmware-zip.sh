@@ -13,12 +13,10 @@ TEMPDIR=`mktemp -d`
 
 cd "$TEMPDIR"
 unzip "$SOURCE"
-rm boot.img system.*
+rm boot.img system.* vendor.*
 cd META-INF
 rm -f CERT.*  MANIFEST.MF
-cd com
-rm -fR android
-cd google/android
+cd com/google/android
 
 cat <<EOF  > updater-script
 ui_print(" ");
